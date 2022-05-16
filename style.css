@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: smaller;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url();
+    background-color: #e0e8fe;
+    align-items: center;
+    font-size: 13px;
+}
+
+.caixa {
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 1em gray;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.foto {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+h4 {
+  color: gray;
+  font-size: 20px; 
+  font-weight: lighter;
+}
+
+.texto1 {
+    padding: 0 15px;
+    margin: 30px 0 0 0;
+}
+
+.texto2 {
+    padding: 5px 20px;
+}
+
+.caixa-azulzinha {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f7ff;
+    height: 80px;
+    width: 220px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 90px;
+}
+
+/*usar space-between dentro da caixa pra espaçar certin*/
+
+.button {
+    background-color: black;
+    color: #f5f7ff;
+}
+
+.botao-azul {
+    background-color: #3829e0;
+    color: white;
+    height: 50px;
+    width: 320px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.cancel-button {
+    background-color: transparent;
+    color: grey;
+    border: transparent;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: point;
+}
